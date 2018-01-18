@@ -6,13 +6,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="src" path="jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_161]">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -22,6 +17,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/akiya/OneDrive/Desktop/apache-activemq-5.4.3-bin/apache-activemq-5.4.3/activemq-all-5.4.3.jar"/>
+	<classpathentry kind="lib" path="/Volumes/DATA/apache-activemq-5.15.2/activemq-all-5.15.2.jar"/>
+	<classpathentry kind="lib" path="jar/aqapi.jar"/>
+	<classpathentry kind="lib" path="jar/bcpg-jdk12-130.jar"/>
+	<classpathentry kind="lib" path="jar/bcprov-jdk12-130.jar"/>
+	<classpathentry kind="lib" path="jar/jmscommon.jar"/>
+	<classpathentry kind="lib" path="jar/jta-1.0.1B.jar"/>
+	<classpathentry kind="lib" path="jar/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="jar/xdb.jar"/>
+	<classpathentry kind="lib" path="jar/xmlparserv2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
