@@ -14,6 +14,7 @@ public class Main {
 			i++;
 			pub_1.sendName("Peregrin" + i, "Took" + i);
 		}
+		/// một hai ba
 	}
 
 }
